@@ -2,6 +2,10 @@
 name = "finproof"
 version = "0.1.0"
 edition = "2024"
+description = "Deterministic financial programming language and verification engine."
+license = "MIT"
+repository = "https://github.com/adnanomar77/FinProof"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.6.6", features = ["derive"] }
