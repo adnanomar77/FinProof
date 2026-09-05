@@ -1,0 +1,9 @@
+currency USD
+
+account Cash: asset USD = 0
+account SalesRevenue: revenue USD = 0
+
+transaction NegativeDebit {
+    debit Cash (0 USD - 100 USD)
+    credit SalesRevenue 100 USD
+}
