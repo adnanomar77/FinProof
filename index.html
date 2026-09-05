@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Jtp_Gqjb1DizTJ2YyiK4rf2qqQNeB78ovQBDRF1y3u4">
+    <title>FinProof — Deterministic Financial Programming Language</title>
+    <meta name="description" content="FinProof is an independent deterministic financial programming language for financial transactions, double-entry accounting, ledger execution, financial invariants, and execution verification.">
+</head>
+<body>
+    <h1>FinProof</h1>
+
+    <p><strong>Created by Adnan Omar Awad Allemon</strong></p>
+
+    <h2>Deterministic Financial Programming Language</h2>
+
+    <p>
+        FinProof is an independent domain-specific programming language for deterministic
+        financial transactions, double-entry accounting, ledger execution, financial
+        invariants, and execution verification.
+    </p>
+
+    <h2>Version</h2>
+    <p><strong>0.1.0</strong></p>
+
+    <h2>Language Pipeline</h2>
+    <p>Source → Lexer → Parser → Type Checker → Compiler → Bytecode → VM → Ledger → Verification</p>
+
+    <h2>Example</h2>
+    <pre><code>currency USD
+
+account Cash: asset USD = 1000
+account SalesRevenue: revenue USD = 0
+
+transaction Sale {
+    debit Cash 100 USD
+    credit SalesRevenue 100 USD
+}</code></pre>
+
+    <h2>Project</h2>
+    <p>
+        FinProof is an independent financial programming language and verification engine.
+    </p>
+</body>
+</html>
